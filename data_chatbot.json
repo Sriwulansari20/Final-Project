@@ -1,0 +1,53 @@
+{
+    "intents": [
+      {"tag": "salamPembuka",
+       "patterns": ["Hai", "Apa kabar?", "Hey", "Hola", "Hallo sis", "Hey", "Hallo min", "Halo kak", "Hi"],
+       "responses": ["Halo!", "Apakah ada yang bisa dibantu?", "Apakah ada yang bisa kami bantu?", "Hai", "Halo juga", "Halo selamat datang", "Hai Kawan"]
+      },
+      {"tag": "salamPenutup",
+       "patterns": ["Bye", "Sampai Berjumpa Lagi", "Selamat Tinggal", "Ok bye", "Bye Bye"],
+       "responses": ["Sampai jumpa lagi, Kalau ada masalah hubungi aku lagi yaa!!! Semoga harimu menyenangkan!!!"]
+      },
+      {"tag": "ucapanTerimaKasih",
+       "patterns": ["Thanks", "Thank you", "Terimakasih", "Terimakasih, telah membantu", "Makasih"],
+       "responses": ["Senang bisa membantu anda", "sama-sama", "Semoga bisa membantu"]
+      },
+       {"tag": "toko",
+        "patterns": ["tokonya dimana sis?", "tokonya dimana min?", "tokonya dimana gan?", "cek lokasi", "loksi UMKMnya dimana?", "ada toko offlinenya?", "Letak toko dimana?", "Lokasi toko dimana?"],
+        "responses": ["Untuk lokasi toko UMKM bisa dilihat di deskripsi produk"]
+        },
+        {"tag": "pengiriman",
+         "patterns": ["Pengirimanya lama gak?", "pengiriman ketempat saya berapa hari", "kenapa pengiriman saya lama?", "Kenapa barang saya belum sampai?", "kapan barang saya sampai?"],
+         "responses": ["Untuk lama pengiriman tergantung daerah kakak masing-masing dan juga tergantung ekspedisi yang dipilih"]
+        },
+       {"tag": "stokBarang",
+        "patterns": ["Ready stok?", "Apakah barang masih ada?", "Barang ini masih ada?", "Kapan barang ready stok lagi?", "Kapan ready stok?", "Bagaimana cara liat stok barang?"],
+        "responses": ["Untuk ketersediaan barang kakak bisa cek di deskripsi produknya atau bisa langsung menghubungi kontak whatsapp penjual"]
+        },
+        {"tag": "kualitasBarang",
+         "patterns": ["Ori?", "Barangnya original?", "barangnya ori gak kak?"],
+         "responses": ["Produk yang kita jual original asli dari pengrajinnya langsung"]
+        },
+        {"tag": "variasiBarang",
+         "patterns": ["ada warna apa aja?", "Ada warna lain ga?", "ada ukuran apa aja?", "ukurannya apa aja", "Ada varian lain?"],
+        "responses": ["Untuk varian, warna ataupun ukuran lainnya bisa cek di deskripsi produk"]
+        },
+        {"tag": "penukaran",
+        "patterns": ["Apa bisa ditukar?", "Cara Menukar Barang", "Gimana menukar barang", "Apa barang bisa ditukar?"],
+        "responses": ["Jika terdapat barang yang tidak sesuai atau cacat kakak boleh menukarnya dengan syarat ada video saat unboxing paketnya"]
+        },
+        {"tag": "ongkir",
+        "patterns": ["Berapa ongkir ketempat saya?", "Berapa ongkirnya", "Cara melihat ongkir", "Cara mengetahui ongkir", "Cara cek ongkir"],
+        "responses": ["Ongkir tergantung ekspedisi yang dipilih dan letak daerah kakak masing-masing, untuk ongkir bisa kakak cek di web ekspedisinya."]
+        },
+        {"tag": "statusPesanan",
+        "patterns": ["Bagaimana cara cek status pesanan?", "Cara cek status pesanan?"],
+        "responses": ["Untuk mengecek status pesanan, anda bisa mengecek resi di situs web ekspedisinya"]
+        },
+        {"tag": "umkmKita",
+        "patterns": ["Apa itu UMKMkita?"],
+        "responses": ["UMKMkita adalah sebuah situs web penjualan yang menjual barang-barang kerajinan khas Daerah. Dimana semua bahan yang dijual disini dibuat oleh pengrajin UMKM daerah yang memiliki ciri khas dan keunikan tersendiri."]
+        }
+    ]
+  }
+  
